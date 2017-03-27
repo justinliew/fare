@@ -1,0 +1,36 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "*incoherent mumbling*",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Move along.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Fucking authority. I don't accept your power!!",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Let's take an Uber instead.",
+      "newline" : 1,
+      "branchto" : "<endout>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

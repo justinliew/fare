@@ -1,0 +1,57 @@
+{
+  "passengers": [
+    {
+      "id": "p009h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party1",
+      "avatar_name": "p009_body",
+      "avatar_head" : "p009_head_h",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p009d",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party2",
+      "avatar_name": "p009_body",
+      "avatar_head" : "p009_head_d",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p010h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party3",
+      "avatar_name": "p010_body",
+      "avatar_head" : "p010_head_h",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p010d",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party4",
+      "avatar_name": "p010_body",
+      "avatar_head" : "p010_head_d",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p011h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party1",
+      "avatar_name": "p011_body",
+      "avatar_head" : "p011_head_h",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p011d",
+      "charid" : "",
+      "dialog_identifier": "dialogue_party2",
+      "avatar_name": "p011_body",
+      "avatar_head" : "p011_head_d",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    }    ]
+  }

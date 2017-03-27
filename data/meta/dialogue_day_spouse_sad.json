@@ -1,0 +1,150 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "It was a rought day of work but I was dreading going home.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "I just wanted to sit and have a drink and ignore my feelings",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "But I always got the third degree from my spouse.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Get takeout and try to diffuse the situation.",
+      "newline" : 1,
+      "branchto" : "takeout",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "They're making dinner, not me this time!",
+      "newline" : 1,
+      "branchto" : "dinner",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Bring up that thing about their mom.",
+      "newline" : 1,
+      "branchto" : "mom",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "takeout",
+      "line": "We fought over where to get takeout, and compromised with fast food.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "takeout",
+      "line": "Both of us felt a bit ill, but that forced us to go to bed early,",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "takeout",
+      "line": "which was a pleasant respite from life.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "takeout",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "We fought about who would make dinner, and eventually we each",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "made our own TV dinners in silence.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "mom",
+      "line": "That did not go well. Now we have to rethink the holidays",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "mom",
+      "line": "since I'm apparently unappreciative of all the support",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "mom",
+      "line": "given to me while I was in driver school.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "mom",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+  {
+      "branch" : "end",
+      "line": "",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+
+
+  ]
+}

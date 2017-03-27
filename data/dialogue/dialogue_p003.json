@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "I'm on a new juice cleanse! No more toxins!",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "That's FAKE NEWS.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Well, the sun is shining.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

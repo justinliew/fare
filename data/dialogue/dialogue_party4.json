@@ -1,0 +1,44 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "<phone>Alright, alright, just put them on, put them on.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "What a boring conversation",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "<phone>Oh, that's just the bus driver dude.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "<phone>Yeah, they're all so lame.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "<phone>I'd just kill myself if I were like that..",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

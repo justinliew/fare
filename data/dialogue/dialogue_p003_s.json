@@ -1,0 +1,92 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "What a day! One sec...",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "<hurry her up>",
+      "newline" : 1,
+      "branchto" : "start2",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "start2",
+      "line": "Err, I don't have enough fare,",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "start2",
+      "line": "but I really need to pick up my kids.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "start2",
+      "line": "Fare is $1.50 for everyone.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "start2",
+      "line" : "How much do you have? Just pay what you can.",
+      "newline" : 1,
+      "branchto" : "interrogate",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "interrogate",
+      "line" : "I left my wallet at home, where my kids are.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "interrogate",
+      "line" : "Okay, everyone makes mistakes. Hop aboard.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "++",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "interrogate",
+      "line" : "Sorry ma'am, I can't just let anyone on.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Thank you so much!.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "badend",
+      "line": "<sob>.",
+      "newline" : 1,
+      "branchto" : "<endout>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

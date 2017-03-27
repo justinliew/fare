@@ -1,0 +1,68 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Mornin'",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Morning ma'am. Fare is $1.50.",
+      "newline" : 1,
+      "branchto" : "rebuke",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "rebuke",
+      "line": "Err, actually I prefer to be addressed as 'he'.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "rebuke",
+      "line": "Oh, I'm sorry. I'll try again.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "eneregyeffect" : "+",
+      "stateeffect" : "uni_positive"
+    },
+    {
+      "branch" : "rebuke",
+      "line": "Aite, doesn't matter to me. Fare is still $1.50.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "eneregyeffect" : "-",
+      "stateeffect" : "uni_negative"
+    },
+    {
+      "branch" : "badend",
+      "line": "Well, it matters to me...",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Morning sir. Fare is $1.50.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "*smile*",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "After a great day of work, I went home energized.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "My spouse looked tired from work.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Offer to make dinner.",
+      "newline" : 1,
+      "branchto" : "dinner",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Go for a walk.",
+      "newline" : 1,
+      "branchto" : "walk",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "I worked hard too, I should conserve my energy for tomorrow.",
+      "newline" : 1,
+      "branchto" : "down",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "I made a romantic dinner, and opened a bottle of wine",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "from our last trip to Napa.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "dinner",
+      "line": "We had some great conversation, and then went to bed early :)",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+   {
+      "branch" : "dinner",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "walk",
+      "line": "We walked down to the beach with the dog, and had a late",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "walk",
+      "line": "dinner at the new Italian bistro on the corner.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+   {
+      "branch" : "walk",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "I stayed up late playing video games while they went to bed early.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "It wasn't a bad night, but it also wasn't that great.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+   {
+      "branch" : "down",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+     {
+      "branch" : "end",
+      "line": "",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+
+
+  ]
+}

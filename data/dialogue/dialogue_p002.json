@@ -1,0 +1,36 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "<blah blah blah stocks diversified>",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "<portfolio Uber venture capital blah>",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Move along please.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "I'm so important.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

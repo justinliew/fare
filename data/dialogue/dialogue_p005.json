@@ -1,0 +1,132 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Why hello! You drivers get younger every year.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Um, yeah.",
+      "newline" : 1,
+      "branchto" : "chat1",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat1",
+      "line": "When I was a kid, drivers were well established folk.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat1",
+      "line": "Good strong union boys.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat1",
+      "line": "Um, yeah.",
+      "newline" : 1,
+      "branchto" : "chat2",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat1",
+      "line": "You're holding up the bus.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat2",
+      "line": "You know what I heard? Reagan <blah blah>.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat2",
+      "line": "Um, yeah.",
+      "newline" : 1,
+      "branchto" : "chat3",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat2",
+      "line": "You're holding up the bus.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat3",
+      "line": "Anyways, don't let me keep you from your job.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat3",
+      "line": "I'm just a bit lonely, so thanks for listening.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat3",
+      "line": "Sure, any time.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "+",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "chat3",
+      "line": "You're holding up the bus.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Bye!",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "badend",
+      "line": "So rude, you young people these days... *grumble*",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "badend",
+      "line": "I'd rather WALK!!!",
+      "newline" : 1,
+      "branchto" : "<endout>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

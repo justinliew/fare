@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Hey, a new driver! How are you?",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Doing well, thanks!",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "+",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Well, have yourself a good day, driver!",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

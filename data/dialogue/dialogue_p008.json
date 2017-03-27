@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Another day, another dollar.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Well, $1.50, since that's the price.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "I don't understand your humour.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

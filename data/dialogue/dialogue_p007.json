@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "One day I'll get a real job.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "You keep telling yourself that.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "I'm taking courses.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

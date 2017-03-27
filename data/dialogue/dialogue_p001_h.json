@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "What a great morning!",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "I suppose it is.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "+",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "You have yourself a fine one.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

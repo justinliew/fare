@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Oh, hey, it's my favourite bus driver!",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "+",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Hello sir! Hope you have a good day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "end",
+      "line": "Later!",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

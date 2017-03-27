@@ -1,0 +1,60 @@
+{
+  "stops": [
+    {
+      "w1d1s1": [
+        "very_first",
+        "random",
+        "random"
+      ]
+    },
+    {
+      "w1d1s3": [
+        "random",
+        "uni_first",
+        "random"
+      ]
+    },
+    {
+      "s3": [
+        "uni",
+        "random",
+        "random"
+      ]
+    },
+    {
+      "s4": [
+        "random",
+        "random",
+        "old"
+      ]
+    },
+    {
+      "w1d2s5": [
+        "scammer",
+        "random",
+        "random"
+      ]
+    },
+    {
+      "ns" : [
+        "randompartier",
+        "randompartier",
+        "randompartier"
+      ]
+    },
+    {
+      "ns3" : [
+        "randompartier",
+        "randompartier",
+        "randompartier"
+      ]
+    },
+    {
+      "r3" : [
+        "random",
+        "random",
+        "random"
+      ]
+    }
+  ]
+}

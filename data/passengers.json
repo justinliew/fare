@@ -1,0 +1,165 @@
+{
+  "passengers": [
+    {
+      "id": "p001h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p001_h",
+      "avatar_name": "p001_body",
+      "avatar_head" : "p001_head_h",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "p001n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p001_h",
+      "avatar_name": "p001_body",
+      "avatar_head" : "p001_head_n",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "p001s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p001_s",
+      "avatar_name": "p001_body",
+      "avatar_head" : "p001_head_s",
+      "start_mood" : 0.5,
+      "board_time" : 2
+    },
+    {
+      "id": "p002h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p002",
+      "avatar_name": "p002_body",
+      "avatar_head" : "p002_head_h",
+      "start_mood" : 0.5,
+      "board_time" : 2
+    },
+    {
+      "id": "p002n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p002",
+      "avatar_name": "p002_body",
+      "avatar_head" : "p002_head_n",
+      "start_mood" : 0.4,
+      "board_time" : 2
+    },
+    {
+      "id": "p002s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p002",
+      "avatar_name": "p002_body",
+      "avatar_head" : "p002_head_s",
+      "start_mood" : 0.3,
+      "board_time" : 2
+    },
+    {
+      "id": "p003h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p003",
+      "avatar_name": "p003_body",
+      "avatar_head" : "p003_head_h",
+      "start_mood" : 0.5,
+      "board_time" : 2
+    },
+    {
+      "id": "p003n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p003",
+      "avatar_name": "p003_body",
+      "avatar_head" : "p003_head_n",
+      "start_mood" : 0.4,
+      "board_time" : 2
+    },
+    {
+      "id": "p003s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p003_s",
+      "avatar_name": "p003_body",
+      "avatar_head" : "p003_head_s",
+      "start_mood" : 0.2,
+      "board_time" : 2
+    },
+    {
+      "id": "p005h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p005",
+      "avatar_name": "p005_body",
+      "avatar_head" : "p005_head_h",
+      "start_mood" : 0.8,
+      "board_time" : 4
+    },
+    {
+      "id": "p005n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p005",
+      "avatar_name": "p005_body",
+      "avatar_head" : "p005_head_n",
+      "start_mood" : 0.7,
+      "board_time" : 4
+    },
+    {
+      "id": "p005s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p005",
+      "avatar_name": "p005_body",
+      "avatar_head" : "p005_head_s",
+      "start_mood" : 0.6,
+      "board_time" : 4
+    },
+    {
+      "id": "p007h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p007",
+      "avatar_name": "p007_body",
+      "avatar_head" : "p007_head_h",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "p007n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p007",
+      "avatar_name": "p007_body",
+      "avatar_head" : "p007_head_n",
+      "start_mood" : 0.5,
+      "board_time" : 2
+    },
+    {
+      "id": "p007s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p007",
+      "avatar_name": "p007_body",
+      "avatar_head" : "p007_head_s",
+      "start_mood" : 0.4,
+      "board_time" : 2
+    },
+    {
+      "id": "p008h",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p008",
+      "avatar_name": "p008_body",
+      "avatar_head" : "p008_head_h",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "p008n",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p008",
+      "avatar_name": "p008_body",
+      "avatar_head" : "p008_head_n",
+      "start_mood" : 0.5,
+      "board_time" : 2
+    },
+    {
+      "id": "p008s",
+      "charid" : "",
+      "dialog_identifier": "dialogue_p008",
+      "avatar_name": "p008_body",
+      "avatar_head" : "p008_head_s",
+      "start_mood" : 0.4,
+      "board_time" : 2
+    }  ]
+}

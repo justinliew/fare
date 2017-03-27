@@ -1,0 +1,28 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Oh, it's you again.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "<silence>",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "end",
+      "line": "I'd rather walk.",
+      "newline" : 1,
+      "branchto" : "<endout>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

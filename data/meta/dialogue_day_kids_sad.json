@@ -1,0 +1,143 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "Oh god, these kids are so annoying.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Why do they always want to play. I've had a long day at work.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Half heartedly watch the kids..",
+      "newline" : 1,
+      "branchto" : "watch",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Put them in front of the TV so I can drink a beer.",
+      "newline" : 1,
+      "branchto" : "tv",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "No matter how good a day, the kids just bring me down so quickly!",
+      "newline" : 1,
+      "branchto" : "down",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "watch",
+      "line": "I stared without seeing as the kids played with cars.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "watch",
+      "line": "At one point someone hurt themself, but I didn't notice.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "watch",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "tv",
+      "line": "I sat in the kitchen drinking a beer, hearing the incessant",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "tv",
+      "line": "questions from Dora to the kids. Stupid map.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "tv",
+      "line": "Later I got an earful from my spouse for not pulling my weight.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "tv",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "I felt bad about leaving them to my spouse, but by the time I realized it was too late.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "They were in bed and I was alone, my spouse having begged",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "off some time together to go to the gym.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+  {
+      "branch" : "end",
+      "line": "",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+
+
+
+  ]
+}

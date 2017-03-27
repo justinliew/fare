@@ -1,0 +1,76 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "*sway*",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "You okay?",
+      "newline" : 1,
+      "branchto" : "talk",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "talk",
+      "line": "Ohhh yzeah. Im not feeeeelin so hat.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "talk",
+      "line": "Are you drunk?",
+      "newline" : 1,
+      "branchto" : "yes",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "yes",
+      "line": "Maybe? Butt I aslo lost my wa wa llet, so.",
+      "newline" : 1,
+      "branchto" : "",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "yes",
+      "line": "No worries. Hop board. Just don't cause trouble.",
+      "newline" : 1,
+      "branchto" : "goodend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "goodend",
+      "line": "Thzzzanks.",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "yes",
+      "line": "Sorry, I can't have you aboard with no money.",
+      "newline" : 1,
+      "branchto" : "badend",
+      "energyeffect" : "-",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "badend",
+      "line": "Aite. Later.",
+      "newline" : 1,
+      "branchto" : "<endout>",
+      "energyeffect" : "",
+      "stateeffect" : ""
+    }
+  ]
+}

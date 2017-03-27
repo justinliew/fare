@@ -1,0 +1,165 @@
+{
+  "dialogue": [
+    {
+      "branch" : "<start>",
+      "line": "After a great day of work, I went home energized.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "The kids were eager to see me, and asked to play.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Draw dinosaurs with the kids.",
+      "newline" : 1,
+      "branchto" : "draw",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Build a LEGO spaceship.",
+      "newline" : 1,
+      "branchto" : "lego",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "Beg them off to enjoy a beer before dinner",
+      "newline" : 1,
+      "branchto" : "beer",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "<start>",
+      "line": "No matter how good a day, the kids just bring me down so quickly!",
+      "newline" : 1,
+      "branchto" : "down",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "draw",
+      "line": "We had a great time drawing and playing, and after a long bath",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "draw",
+      "line": "I tucked them in for the night, feeling good about life.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "draw",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "lego",
+      "line": "We build a spaceship and raced it around the house.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "lego",
+      "line": "Afterward, my spouse commented on how they admired how.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "lego",
+      "line": "present I was with the family, even after a long day.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "lego",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "beer",
+      "line": "My family played upstairs while I drank alone, contemplating my choices.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "beer",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "I felt bad about leaving them to my spouse, but by the time I realized it was too late.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "They were in bed and I was alone, my spouse having",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "begged off some time together to go to the gym.",
+      "newline" : 1,
+      "branchto" : "",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+    {
+      "branch" : "down",
+      "line": "Next Day.",
+      "newline" : 1,
+      "branchto" : "end",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    },
+  {
+      "branch" : "end",
+      "line": "",
+      "newline" : 1,
+      "branchto" : "<endin>",
+      "eneregyeffect" : "",
+      "stateeffect" : ""
+    }
+
+  ]
+}

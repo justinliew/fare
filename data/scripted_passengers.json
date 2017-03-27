@@ -1,0 +1,76 @@
+{
+  "passengers": [
+    {
+      "id": "very_first",
+      "charid" : "",
+      "dialogue_identifier" : "dialogue_veryfirst",
+      "avatar_name": "p001_body",
+      "avatar_head" : "p001_head_h",
+      "start_mood" : 0.7,
+      "board_time" : 2
+    },
+    {
+      "id": "uni_first",
+      "charid" : "unichar",
+      "dialogue_identifier" : "dialogue_uni_first",
+      "avatar_name": "p006_body",
+      "avatar_head" : "p006_head_n",
+      "start_mood" : 0.4,
+      "board_time" : 2
+    },
+    {
+      "id": "uni/uni_negative",
+      "charid" : "unichar",
+      "dialogue_identifier" : "dialogue_uni_negative",
+      "avatar_name": "p006_body",
+      "avatar_head" : "p006_head_n",
+      "start_mood" : 0.2,
+      "board_time" : 2
+    },
+    {
+      "id": "uni/uni_positive",
+      "charid" : "unichar",
+      "dialogue_identifier" : "dialogue_uni_positive",
+      "avatar_name": "p006_body",
+      "avatar_head" : "p006_head_n",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "old",
+      "charid" : "oldchar",
+      "dialogue_identifier" : "dialogue_old",
+      "avatar_name": "p005_body",
+      "avatar_head" : "p005_head_s",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "scammer",
+      "charid" : "scammerchar",
+      "dialogue_identifier" : "dialogue_scammer",
+      "avatar_name": "p003_body",
+      "avatar_head" : "p003_head_h",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "tiredmom",
+      "charid" : "tiredmomchar",
+      "dialogue_identifier" : "dialogue_tiredmom",
+      "avatar_name": "p003_body",
+      "avatar_head" : "p003_head_s",
+      "start_mood" : 0.6,
+      "board_time" : 2
+    },
+    {
+      "id": "drunk",
+      "charid" : "drunk",
+      "dialogue_identifier" : "dialogue_drunk",
+      "avatar_name": "p004_body",
+      "avatar_head" : "p004_head_s",
+      "start_mood" : 0.2,
+      "board_time" : 2
+    }
+  ]
+}
