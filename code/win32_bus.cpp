@@ -600,7 +600,8 @@ Win32GetReplayBuffer(win32_state* State, unsigned int Index)
 internal void
 Win32BeginRecordingInput(win32_state* State, int InputRecordingIndex)
 {
-    win32_replay_buffer* ReplayBuffer = Win32GetReplayBuffer(State, InputRecordingIndex);
+#if 0
+	win32_replay_buffer* ReplayBuffer = Win32GetReplayBuffer(State, InputRecordingIndex);
     if (ReplayBuffer->MemoryBlock)
     {
         State->InputRecordingIndex = InputRecordingIndex;
@@ -616,6 +617,7 @@ Win32BeginRecordingInput(win32_state* State, int InputRecordingIndex)
 #endif
         CopyMemory(ReplayBuffer->MemoryBlock, State->GameMemoryBlock, State->TotalSize);
     }
+#endif
 }
 
 internal void
@@ -928,8 +930,8 @@ WinMain(HINSTANCE Instance,
     srand (time(NULL));
 #ifdef USING_SFML
     // SHIPPING FULLSCREEN
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Fare", sf::Style::Fullscreen);
-//    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Fare");
+//    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Fare", sf::Style::Fullscreen);
+    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Fare");
 
     LARGE_INTEGER PerfCountFrequencyResult;
     QueryPerformanceFrequency(&PerfCountFrequencyResult);
@@ -994,6 +996,7 @@ WinMain(HINSTANCE Instance,
     GameMemory.DEBUGPlatformWriteEntireFile = DEBUGPlatformWriteEntireFile;
 
     // this stuff still seems slow. see if we can figure out how we can help windows speed up input recording
+#if 0
     for (int ReplayIndex = 0;
             ReplayIndex < ArrayCount(Win32State.ReplayBuffers);
             ++ReplayIndex)
@@ -1018,6 +1021,7 @@ WinMain(HINSTANCE Instance,
             //TODO - diagnostic
         }
     }
+#endif
 
     if (Samples && GameMemory.PermanentStorage && GameMemory.TransientStorage)
     {
