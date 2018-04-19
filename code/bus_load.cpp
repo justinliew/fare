@@ -1,3 +1,18 @@
+void
+LoadInkFile(game_memory* Memory, const char* fileName)
+{
+    // WIP
+    // debug_read_file_result Result = Memory->DEBUGPlatformReadEntireFile(nullptr, (char*)fileName);
+    // if (Result.ContentsSize == 0)
+    // {
+    //     return;
+    // }
+    // struct json_value_s* root = json_parse(Result.Contents, Result.ContentsSize);
+    // assert(root->type == json_type_object);
+    // struct json_object_s* object = (struct json_object_s*)root->payload;
+    
+}
+
 internal const char*
 GetStringAndAdvanceJson(json_object_element_s** e)
 {

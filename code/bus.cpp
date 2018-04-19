@@ -1034,6 +1034,8 @@ extern "C" GAME_UPDATE_AND_RENDER(GameUpdateAndRender)
 
         LoadScriptData(Memory, GameState);
 
+        LoadInkFile(Memory, "../data/dialogue/test2.ink.json");
+
         LoadPassengerList(Memory, GameState, "../data/passengers.json", &GameState->GeneralPassengers);
         LoadPassengerAvatars(&GameState->GeneralPassengers);
 
